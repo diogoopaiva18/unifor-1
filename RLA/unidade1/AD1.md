@@ -339,6 +339,7 @@ Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$. Cada termo, além do
 ```mermaid
 flowchart TD
 A([INICIO]) --> B{{"Número de termos da série Fibonacci:"}}
+B --> C [n]
 B --> C[a = 0]
 C --> D[b = 1]
 D --> E[[i=1 ATÉ n PASSO 1]]
